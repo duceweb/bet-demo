@@ -1,0 +1,111 @@
+.feg-offer-container {
+    max-width: 80% !important;
+}
+
+.feg-offer-container button.wallet-reload{
+    margin-bottom: 20px;
+}
+
+#table-offer th:not(:first-child) {
+    width: 80px;
+    text-align: center;
+}
+
+.feg-offer-container .ui.button.button.tip-button {
+    background-color: #e0e1e2;
+    color: rgba(0, 0, 0, .95);
+    width: 100%;
+}
+
+.feg-offer-container .ui.button.button.tip-button.tip-active {
+    background-color: #a5a5a5;
+    font-weight: bolder;
+}
+
+.offer-bets {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.offer-bet {
+    border-top: 1px solid #e5e4e4;
+    padding: 10px 0;
+}
+
+.offer-bet-info {
+    text-align: right;
+}
+
+.offer-bet-info > div {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.offer-bet-info > div.odds {
+    margin-left: 30px;
+    width: 30px;
+}
+
+.offer-bet-info > div.tip {
+    padding: 0 6px;
+    border: 1px solid #e5e4e4;
+    border-radius: 3px;
+}
+
+.offer-bet-game i {
+    visibility: hidden;
+    position: absolute;
+    right: 10px;
+    color: #dd4b39;
+    cursor: pointer;
+}
+
+.offer-bet:hover > .offer-bet-game i {
+    visibility: visible;
+}
+
+.wallet-container {
+    margin-bottom: 20px;
+    min-height: 26px;
+}
+
+.wallet,
+.win-amount {
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.offer-input {
+    margin: 16px 0 8px;
+}
+
+.bet-slip-top {
+    font-weight: bold;
+}
+
+.bet-slip-top > .time {
+    display: inline-block;
+}
+
+.bet-slip-top > span {
+    float: right;
+    margin-left: 15px;
+}
+
+.bet-slip-games > div.game {
+    padding: 8px 4px;
+}
+
+.bet-slip-games > div.game span {
+    float: right;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.bet-slip-games > div.game span:last-child {
+    padding: 0 6px;
+    border: 1px solid rgba(34, 36, 38, .15);
+    border-radius: 3px;
+}
